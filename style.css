@@ -1,0 +1,136 @@
+/* Perez Rotich 2/23/21 */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.2em;
+    background-color: #ffffff;
+    line-height:1.5em;
+}
+
+#wrapper{
+    background-color: #cdceca;
+    padding:2%;
+    border-radius:2%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 860px;
+    max-width: 1200px;
+}
+
+#resume {
+    width: 80%;
+    margin: auto;
+    background-color: #F0F7F8;
+    margin-top: 2%;
+    border-radius: 2%;
+    box-shadow: 6px 6px 6px #000000;
+   } 
+
+img{
+    float:left;
+    width:200px;
+     height: 200px;
+     margin:0; 
+     padding:2% 5% 1% 2%;
+   }
+
+.address li{
+     list-style: none;
+    display:block;
+  }
+
+.address{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 5%;
+    color: #ffffff;
+    line-height:2em;
+   
+    }
+
+    .address a{
+        color: #ffffff;
+    }
+
+
+ a {
+    text-decoration: none;
+   }
+
+  #contact{
+    border: 3px solid #ffffff;
+    background-color:#2e227d;
+    padding-bottom: 1%;
+    }
+
+ h2{
+    margin: 0;
+    text-align: center; 
+    color: #45a1bb;
+
+    }
+  
+    h1{
+        margin: 0;
+        padding-top: 2%;
+        color: #ffffff;
+        margin:0; 
+    }
+
+h3{
+    text-decoration: underline;
+    color:#434fda;
+    text-align: center;
+    margin-bottom: 0;
+    cursor: pointer;
+    margin-top:0;
+}
+
+
+main{
+    margin: 0 auto 0 auto;
+    padding:0 2% 2% 2%;
+} 
+
+ul a:visited{
+    color:#1e81b0;
+}
+
+ul a:hover{
+    color: #434fda;
+    cursor: pointer;
+}
+  
+nav li{
+   display: inline;
+   padding-right: 2%;
+   text-align: center; 
+ }
+
+ ul{
+  list-style: none;
+ }
+
+ ol{
+  list-style: none;
+ 
+     
+ }
+li{
+    margin-top:0;
+}
+
+  #div2{
+   
+    list-style-type:square;
+   
+  }
+
+ #div1{
+    float: right;
+    list-style-type:square;
+    width: 50%;
+    
+   
+ }

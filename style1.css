@@ -1,0 +1,60 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    color: #8f896d;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    margin: 0;
+    padding:10px 0 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#container {
+    background-color: #d8dcaa;
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    text-decoration: underline;
+    color: royalblue;
+}
+
+#resume {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #F0F7F8;
+    margin-top: 15px;
+     border-radius: 30px;
+} 
+
+#center-resume {
+    margin: 0 auto;
+     padding-left: 35px;
+}
+
+.address {
+    margin-left: 0;
+    padding-bottom: 15px;
+    margin: 0;
+
+}
+
+.address li {
+    list-style: none;
+}
+a{
+text-decoration: none;
+}
+a:hover{
+    color:royalblue;
+}
+img{
+    padding-left: 55px;
+}
