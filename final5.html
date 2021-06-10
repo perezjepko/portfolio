@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!--Perez Rotich 5/6/21 Form page-->
+<html lang="en">
+
+    <head>
+        <title>form page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../styles/styles.css">
+        <link href="../styles/print.css" rel="stylesheet" media="print">
+        <link rel="icon" href="../imagesfinal/contact.png" type="image/x-icon">
+          
+          <style>
+        /* form style */
+
+        form {
+        padding: .5em;
+        background: #eee;;
+        margin-top: 1rem;
+        }
+      
+        label{
+        padding: 0.5em 1.5em 0.5em 0;
+        display: inline-block;
+        }
+
+        input:not([type=radio]):not([type=checkbox]),
+        textarea, select{
+        padding:1%;
+        margin: .5em 0;
+        width: 100%;
+        font-size: inherit;
+        }
+        </style>
+     </head>
+
+  <body>
+    <div class="container">
+      <header id="top">
+          <h1>10 Great Web Development Tools</h1>
+          <nav>
+            <a href="#" id="nav-icon"></a>
+              <ul>
+              <li><a href="final1.html">Home</a></li>
+              <li><a href="final2.html">About</a></li>
+              <li><a href="final3.html">Web 110</a></li>
+              <li><a href="final4.html">Credit</a></li>
+              <li><a href="final5.html">Contact</a></li>
+            </ul>
+          </nav>
+      </header>
+
+      <main>
+        <div class="web-img">
+          <img src="../imagesfinal/contact.jpg" alt="Contact">
+        </div>
+        
+            <form action="mailto:protich@stumail.jccc.edu" method="POST">
+            <p>Contact Information</p><br>
+
+            <label for="fname">*First Name:</label>
+            <input type="text" name="fname" id="fname" required>
+
+            <label for="lname">*Last Name:</label>
+            <input type="text" name="lname" id="lname" required>
+
+            <label for="date">Date:</label>
+            <input type="date" name="date" id="date">
+
+            <label for="email">*E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="example@example.com" required>
+
+            <label for="yrs-experience">Number of years using Web tools:</label>
+            <input type="number" id="yrs-experience" name="age" min="10" max="30" >
+            <p>Gender:</p>
+            <label for="gender">Male
+            <input type="radio" name="gender" id="gender">
+            </label>
+            <label for="female">Female
+            <input type="radio"  name="gender" id="female">
+            </label> 
+          
+          <p>Choose your Web development tools:</p>
+          <label for="vs">
+          <input type="checkbox" name="vs" id="vs">Visual studio
+          </label>
+          <label for="sublime">
+          <input type="checkbox" name="sublime" id="sublime">Sublime
+          </label>  
+          <label for="CodePen">
+          <input type="checkbox" name="CodePen" id="CodePen">CodePen
+          </label>
+          <label for="bootstrap">
+          <input type="checkbox" name="bootstrap" id="bootstrap">Bootstrap
+         </label>
+          <label for="chrome">
+          <input type="checkbox" name="chrome" id="chrome" >Chrome DevTools
+         </label><br>
+
+
+          <label for="industry">Industry:</label>
+          <select size="1" name="industry" id="industry">
+              <option>Please choose </option>
+              <option>Tech</option>
+              <option>Healthcare</option>
+              <option>Education</option>
+              <option>Government</option>
+              <option>Other</option>
+          </select>
+
+          <label for="feedback">*Describe frequency use of web tools:</label>
+          <textarea name="feedback" id="feedback"
+          placeholder="Enter your message here"
+          required="required" rows="2" cols="50">
+          </textarea>
+
+          <input type="submit" value="Submit Form">
+          <input type="reset" value="Reset">
+         </form>
+  
+          <p>If you require any further information, feel free to contact me at
+          <a href="mailto:perezjepkorir92@gmail.com">Perezjepkorir92@gmail.com</a>
+          </p>
+                
+      </main>
+        
+          
+      <aside>
+              <div class="about-info">
+                    <h4>About</h4>
+                    <p>
+                      Web development tools allow web developers
+                      to test and debug their code. Web development
+                      tools allow developers to work with a variety
+                      of web technologies, including HTML, CSS,
+                      the DOM, JavaScript, and other components
+                      that are handled by the web browser. Web App Development
+                      tools allow developers to use and
+                      work with numerous tools and technologies that
+                      offer faster development of websites at a
+                      reasonable price, without investing too much effort.
+                    </p>
+                    </div>
+
+                  <div class="about-info">
+                    <h4>Course Information</h4>
+                    <p>
+                        Web 110  course cover the essential skills
+                        needed to create responsive websites,
+                        by using HyperText Markup Language (HTML)
+                        and Cascading Style Sheets (CSS).
+                        <a href="../imagesfinal/web110.pdf" download="web110.pdf">Course information
+                          (Download PDF)
+                          </a> 
+                    </p>
+                  </div>
+
+                    <div class="about-info">
+                      <h4> College</h4> 
+                      <p>
+                        Course taken at <a href="https://www.jccc.edu/" target="blank">Johnson County
+                        Community College</a>
+                        by Lisa Friedrichsen
+                        professor of Computing Sciences and Information Technology Division
+                        Made by Perez Rotich with the guide of web 110 final rubric 
+                      </p>
+                    </div>
+        </aside>
+           
+        <footer class="clear-float">
+              <ul>
+                  <li><a href="final1.html">Home</a></li>
+                  <li><a href="final2.html">About</a></li>
+                  <li><a href="final3.html">Web 110</a></li>
+                  <li><a href="final4.html">Credit</a></li>
+                  <li><a href="final5.html">Contact</a></li>
+                  <li><a href="#top"> Go back to top &uarr;</a></li>
+              </ul>
+        </footer>
+
+    </div>
+  </body>
+
+</html>
